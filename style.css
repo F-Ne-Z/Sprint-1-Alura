@@ -49,32 +49,62 @@ header{
     position: relative;
     padding-top: 50px;
     top: 20%;
-    
-    
+      
 }
 
 
 .sinmensaje{
-    font-size: 30px;
-    margin-top: 5px;
+    position: relative;
+    width: 336px;
+    height: 58px;
+    left: 9%;
+    top: 250px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 120%;
+    /* or 29px */
+    text-align: center;
+
+    /* Gray/gray-500 */
+    color: #343A40;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
     
 }
 
 .textoencriptar{
-    position: static;
+    position: relative;
     width: 336px;
     height: 48px;
-    left: 0px;
-    top: 74px;
+    left: 9%;
+    top: 300px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-
+    /* or 24px */
     text-align: center;
 
+    /* Gray/gray-400 */
     color: #495057;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+
 
 }
